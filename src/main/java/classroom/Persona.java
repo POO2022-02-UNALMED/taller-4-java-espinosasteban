@@ -11,6 +11,9 @@ public class Persona {
         cedula = 3;
     }
 
+    Persona(){
+
+    }
     Persona(long cedula, String nombre) {
         this.cedula = cedula;
         this.nombre = nombre;
